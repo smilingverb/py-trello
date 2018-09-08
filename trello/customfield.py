@@ -163,7 +163,7 @@ class CustomFieldText(CustomField):
 		Sets the new value,
 		:param value: the new value as unicode
 		"""
-		assert isinstance(value, unicode), "Given value is no unicode!"
+		assert isinstance(value, str), "Given value is no unicode!"
 		self.client.fetch_json(
 			'/card/' + self.card.id + '/customField/' + self.definition_id + '/item',
 			http_method='PUT',
