@@ -3,10 +3,10 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="py-trello",
-    version="0.11.3",
+    name="py-trello-py3",
+    version="0.11.3-r1",
 
-    description='Python wrapper around the Trello API',
+    description='Python wrapper around the Trello API, python3 fork',
     long_description=open('README.rst').read(),
     author='Richard Kolkovich',
     author_email='richard@sigil.org',
